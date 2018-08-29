@@ -11,7 +11,7 @@ Variables:
 	print(person_information["livingCity"]) {[type]} -- [description]
 """
 person_information = {
-	"First_name":"Xiao",
+	"First_name":"Lock",
 	"Last_name":"Bro",
 	"age":"20",
 	"livingCity" :"Tianjin",
