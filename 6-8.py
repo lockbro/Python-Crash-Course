@@ -9,7 +9,7 @@
 Tom = {
 	"pet_name" : "Tom",
 	"pet_type" : "cat",
-	"pet_master" : "LockBro", 
+	"pet_master" : "LockBro",
 }
 
 Jerry = {
@@ -27,6 +27,6 @@ Angel = {
 pets = [Tom, Jerry, Angel]
 
 for pet in pets:
-    print(pet["pet_name"] + " is a " + pet["pet_type"] + 
-			 ",and her master's name is " + 
+    print(pet["pet_name"] + " is a " + pet["pet_type"] +
+			 ",and her master's name is " +
 			 pet["pet_master"] + ".")
