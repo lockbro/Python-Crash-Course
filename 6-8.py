@@ -4,25 +4,24 @@
 2.在每个字典中要包含宠物的类型以及主人的名字
 3.将这个字典纯在一个名为pets的列表中
 3.遍历列表，将宠物的信息打印出来
-
 """
 
-Tom={
-	"pet_name":"Tom",
-    "pet_type":"cat",
-	"pet_master":"LockBro",
+Tom = {
+	"pet_name": "Tom",
+    "pet_type": "cat",
+	"pet_master": "LockBro",
 }
 
 Jerry = {
-	"pet_name":"Jerry",
-	"pet_type":"mouse",
-	"pet_master":"PaulBaker",
+	"pet_name": "Jerry",
+	"pet_type": "mouse",
+	"pet_master": "PaulBaker",
 }
 
 Angel = {
-	"pet_name":"Angel",
-	"pet_type":"dog",
-	"pet_master":"TomLee",
+	"pet_name": "Angel",
+	"pet_type": "dog",
+	"pet_master": "TomLee",
 }
 
 pets = [Tom, Jerry, Angel]
