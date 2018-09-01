@@ -8,26 +8,25 @@ LockBro = {
 		"First_name":"Lock",
 		"Last_name":"Bro",
 		"age":20,
-		"livingCity" :"Tianjin",
+		"livingCity":"Tianjin",
 	}
 
 TomLee = {
 		"First_name":"Tom",
 		"Last_name":"Lee",
 		"age":44,
-		"livingCity" :"Shanghai",
-	}	
+		"livingCity":"Shanghai",
+	}
 
 PualBaker = {
 		"First_name":"Paul",
 		"Last_name":"Baker",
 		"age":11,
-		"livingCity" :"Hongkong",
+		"livingCity":"Hongkong",
 	}
-people = [LockBro , TomLee , PualBaker]
+people = [LockBro, TomLee, PualBaker]
 
 for person in people:
-    print(person["First_name"]+person["Last_name"] + 
-		                 " is a " + str(person["age"]) + " year's old person" + 
-		                 " who is living in " + person["livingCity"] + ".")
-	
+    print(person["First_name"] + person["Last_name"] +
+                " is a " + str(person["age"]) + " year's old person" +
+                    " who is living in " + person["livingCity"] + ".")

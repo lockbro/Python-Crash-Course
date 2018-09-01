@@ -25,6 +25,7 @@ cities = {
 }
 
 for city, info in cities.items():
-	print(city + " is the capital of " + info["country"] + 
-		" and it's population is about " + str(info["population"]) + 
-		". And the fact of this city is that " + info["fact"] + "\n")
+	print(city + " is the capital of " + info["country"] +
+		          " and it's population is about " + str(info["population"]) +
+		                  ". And the fact of this city is that " +
+                                info["fact"] + "\n")

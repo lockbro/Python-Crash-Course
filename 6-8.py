@@ -27,5 +27,5 @@ Angel = {
 pets = [Tom, Jerry, Angel]
 for pet in pets:
     print(pet["pet_name"] + " is a " + pet["pet_type"] +
-			 ",and her master's name is " +
-			 pet["pet_master"] + ".")
+            " ,and her master's name is " +
+			         pet["pet_master"] + ".")

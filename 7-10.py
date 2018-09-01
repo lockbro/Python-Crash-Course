@@ -11,11 +11,12 @@ flag = True
 
 while True:
     answer = input("May i ask you same question?")
-    if answer == "no" or answer== "fine":
-        break;
+    if answer == "no" or answer == "fine":
+        break
     elif answer == "yes":
         name = input("What's your name : ")
-        place = input("If you could visit one place in the world, where would you go : ")
+        place = input("If you could visit one place in the world, \
+                                where would you go : ")
         info[name] = place
 
 for name, place in info.items():
