@@ -6,11 +6,11 @@ Python字典可用于模拟生活中的字典，在Python中为了不混淆，�
 
 """
 Python_words = {
-	"print" : "打印",
-	"for" : "循环关键字",
-	"list" : "转换为列表的方法",
-	"range" : "表示范围",
-	"reverse" : "可以将列表进行反转的方法"
+	"print": "打印",
+	"for": "循环关键字",
+	"list": "转换为列表的方法",
+	"range": "表示范围",
+	"reverse": "可以将列表进行反转的方法"
 }
 
 print("print:\n" + "    " + Python_words["print"])

@@ -5,13 +5,10 @@
 """
 
 favorite_place = {
-	"Tom" : ["Nanning", "Beijing", "Shanghai"],
-	"Jack" : ["Hongkong", "Tailand", "Xian"],
-    "Mike" : ["Sichuan", "Wuhan", "Suzhou"],
+	"Tom": ["Nanning", "Beijing", "Shanghai"],
+	"Jack": ["Hongkong", "Tailand", "Xian"],
+    "Mike": ["Sichuan", "Wuhan", "Suzhou"],
 }
 
 for person, place in favorite_place.items():
 	print(person + "'s favorite place is : " + ",".join(place) + ".")
-
-
-

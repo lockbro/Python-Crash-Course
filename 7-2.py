@@ -6,7 +6,7 @@
 """
 
 people = input("How many peole would come to have a dinner?")
-if int(people) > 8 :
+if int(people) > 8:
     print("We dont have that much table.")
 else:
     print("We have surplus table.")

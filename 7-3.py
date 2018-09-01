@@ -5,7 +5,7 @@
 """
 
 num = input("Please input a number : ")
-if int(num) % 10 == 0 :
+if int(num) % 10 == 0:
     print(num + " integer is 10")
 else:
     print(num + " integer is not 10")

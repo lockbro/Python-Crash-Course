@@ -6,13 +6,13 @@
 """
 
 favorite_language = {
-	"jem" : "python",
-	"sarah" : "c",
-	"edward" : "ruby",
-	"phil" : "python",
+	"jem": "python",
+	"sarah": "c",
+	"edward": "ruby",
+	"phil": "python",
 }
 
-should_be_investigate = ["jay" , "tom" , "phil" , "lemon","sarah"]
+should_be_investigate = ["jay", "tom", "phil", "lemon", "sarah"]
 
 for person in should_be_investigate:
 	if person in favorite_language.keys():

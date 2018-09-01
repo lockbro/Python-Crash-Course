@@ -13,7 +13,7 @@ client_age = "_"
 while client_age != "quit":
     client_age = input("What's the client's age : ")
     if client_age == "quit":
-        break;
+        break
     elif int(client_age) < 3:
         print("We won't charge for the guy.")
     elif int(client_age) < 12:
