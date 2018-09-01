@@ -6,26 +6,26 @@
 3.遍历列表，将宠物的信息打印出来
 
 """
-Tom = {
-	"pet_name" : "Tom",
-	"pet_type" : "cat",
-	"pet_master" : "LockBro",
+
+Tom={
+	"pet_name":"Tom",
+    "pet_type":"cat",
+	"pet_master":"LockBro",
 }
 
 Jerry = {
-	"pet_name" : "Jerry",
-	"pet_type" : "mouse",
-	"pet_master" : "PaulBaker",
+	"pet_name":"Jerry",
+	"pet_type":"mouse",
+	"pet_master":"PaulBaker",
 }
 
 Angel = {
-	"pet_name" : "Angel",
-	"pet_type" : "dog",
-	"pet_master" : "TomLee",
+	"pet_name":"Angel",
+	"pet_type":"dog",
+	"pet_master":"TomLee",
 }
 
 pets = [Tom, Jerry, Angel]
-
 for pet in pets:
     print(pet["pet_name"] + " is a " + pet["pet_type"] +
 			 ",and her master's name is " +
