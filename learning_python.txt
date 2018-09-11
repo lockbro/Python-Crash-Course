@@ -1,0 +1,5 @@
+In Python you can print string
+In Python you can input what you want to say
+In Python you can handle many kind of file
+In Python you can make any script you may though
+In Python you can process huge size of data
